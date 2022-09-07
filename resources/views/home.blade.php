@@ -10,26 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>niture</title>
+    @yield('title')
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- style css -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- Responsive-->
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- fevicon -->
-    <link rel="icon" href="{{asset('images/fevicon.png')}}" type="image/gif" />
+    <link rel="icon" href="{{ asset('img/fevicon.png') }}" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/jquery.mCustomScrollbar.min.css') }}">
     <!-- Tweaks for older IEs-->
-    <link rel="stylesheet" href="{{asset('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')}}">
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css')}}" media="screen">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+
 </head>
 <!-- body -->
 
@@ -37,16 +36,16 @@
 
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="{{asset('images/loading.gif')}}" alt="#" /></div>
+        <div class="loader"><img src="{{ asset('img/loading.gif') }}" alt="#" /></div>
     </div>
     <!-- end loader -->
 
     <div class="wrapper">
 
 
-        <div class="sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
+        <div class="navbar">
+            <!-- navbar  -->
+            <nav id="navbar">
 
                 <div id="dismiss">
                     <i class="fa fa-arrow-left"></i>
@@ -60,7 +59,6 @@
                     <li> <a href="blog.html">Berita Terkini</a></li>
 
                 </ul>
-
             </nav>
         </div>
 
@@ -77,7 +75,8 @@
                                 <div class="full">
                                     <div class="center-desk">
                                         <div class="logo">
-                                            <a href="index.html"><img src="images/logo.jpg" alt="#"></a>
+                                            <a href="index.html"><img src="{{ asset('img/logo.jpg') }}"
+                                                    alt="#"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -86,18 +85,21 @@
                                 <div class="right_header_info">
                                     <ul>
                                         <li>
-                                            <a href="#"><img style="margin-right: 15px;" src="icon/1.png" alt="#" /></a>
+                                            <a href="#"><img style="margin-right: 15px;"
+                                                    src="{{ asset('icon/1.png') }}" alt="#" /></a>
                                         </li>
                                         <li class="tytyu">
-                                            <a href="#"><img style="margin-right: 15px;" src="icon/2.png" alt="#" /></a>
+                                            <a href="#"><img style="margin-right: 15px;"
+                                                    src="{{ asset('icon/2.png') }}" alt="#" /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><img style="margin-right: 15px;" src="icon/3.png" alt="#" /></a>
+                                            <a href="#"><img style="margin-right: 15px;"
+                                                    src="{{ asset('icon/3.png') }}" alt="#" /></a>
                                         </li>
 
                                         <li>
                                             <button type="button" id="sidebarCollapse">
-                                                <img src="images/menu_icon.png" alt="#" />
+                                                <img src="{{ asset('img/menu_icon.png') }}" alt="#" />
                                             </button>
                                         </li>
                                     </ul>
@@ -122,7 +124,9 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="text-img">
-                                    <figure><img src="https://www.femina.co.id/images/images/Peluang-Usaha-Jamu-Kemasan-Dan-Analisa-Usahanya.jpg" /></figure>
+                                    <figure><img
+                                            src="https://www.femina.co.id/images/images/Peluang-Usaha-Jamu-Kemasan-Dan-Analisa-Usahanya.jpg" />
+                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -145,12 +149,13 @@
                                     <div class="row">
                                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                                             <div class="img_bg">
-                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest collection</strong></h3>
+                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest
+                                                        collection</strong></h3>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="{{ asset('img/discount.jpg') }}" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -164,12 +169,13 @@
                                     <div class="row">
                                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                                             <div class="img_bg">
-                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest collection</strong></h3>
+                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest
+                                                        collection</strong></h3>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="{{ asset('img/discount.jpg') }}" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -183,12 +189,13 @@
                                     <div class="row">
                                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                                             <div class="img_bg">
-                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest collection</strong></h3>
+                                                <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest
+                                                        collection</strong></h3>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="{{ asset('img/discount.jpg') }}" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -214,21 +221,21 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margitop">
                             <div class="trending-box">
-                                <figure><img src="images/1.jpg" /></figure>
+                                <figure><img src="{{ asset('img/1.jpg') }}" /></figure>
                                 <h3>Outdoor</h3>
 
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="trending-box">
-                                <figure><img src="images/2.jpg" /></figure>
+                                <figure><img src="{{ asset('img/2.jpg') }}" /></figure>
                                 <h3>Living Room</h3>
 
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margitop">
                             <div class="trending-box">
-                                <figure><img src="images/3.jpg" /></figure>
+                                <figure><img src="{{ asset('img/3.jpg') }}" /></figure>
                                 <h3>Bedroom Lighting</h3>
 
                             </div>
@@ -257,28 +264,28 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="brand-box">
-                                <i><img src="icon/p1.png" /></i>
+                                <i><img src="{{ asset('icon/p1.png') }}" /></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="brand-box">
-                                <i><img src="icon/p2.png" /></i>
+                                <i><img src="{{ asset('icon/p2.png') }}" /></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="brand-box">
-                                <i><img src="icon/p3.png" /></i>
+                                <i><img src="{{ asset('icon/p3.png') }}" /></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="brand-box">
-                                <i><img src="icon/p4.png" /></i>
+                                <i><img src="{{ asset('icon/p4.png') }}" /></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
@@ -309,13 +316,16 @@
                             <form class="main_form">
                                 <div class="row">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Name" type="text" name="Name">
+                                        <input class="form-control" placeholder="Name" type="text"
+                                            name="Name">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Email" type="text" name="Email">
+                                        <input class="form-control" placeholder="Email" type="text"
+                                            name="Email">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                        <input class="form-control" placeholder="Phone" type="text"
+                                            name="Phone">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
@@ -338,7 +348,7 @@
                             <div class="row">
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
 
-                                    <img class="logo1" src="images/logo1.jpg" />
+                                    <img class="logo1" src="{{ asset('img/logo1.jpg') }}" />
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -370,14 +380,16 @@
                                 <div class="new">
                                     <h3>Newsletter</h3>
                                     <form class="newtetter">
-                                        <input class="tetter" placeholder="Your email" type="text" name="Your email">
+                                        <input class="tetter" placeholder="Your email" type="text"
+                                            name="Your email">
                                         <button class="submit">Subscribe</button>
                                     </form>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="newtt">
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout. The point
                                         <br> of using Lorem I
                                     </p>
                                 </div>
@@ -387,7 +399,8 @@
                     </div>
 
                     <div class="copyright">
-                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a>
+                        </p>
                     </div>
 
                 </div>
@@ -401,13 +414,13 @@
     <div class="overlay"></div>
 
     <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
     <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ asset('js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -442,7 +455,7 @@
                 },
             });
 
-            var image = 'images/maps-and-flags.png';
+            var image = 'img/maps-and-flags.png';
             var beachMarker = new google.maps.Marker({
                 position: {
                     lat: 40.645037,
@@ -454,7 +467,8 @@
         }
     </script>
     <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+    </script>
     <!-- end google map js -->
 
 </body>
