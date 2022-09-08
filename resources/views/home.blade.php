@@ -304,31 +304,42 @@
   <!-- ======= Featured Services Section ======= -->
   <section id="featured-services" class="featured-services">
     <div class="container">
+      <br><br>
+      <div class="section-title">
+        <span>Proses Produksi</span>
+      </div>
+      <br><br>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-laptop"></i></div>
-            <h4 class="title"><a href="">Explore Jamu Tradisional</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <img src="https://disk.mediaindonesia.com/thumbs/1200x-/news/2020/07/107f38017622cdae037ee6eb98ef64af.jpg" style="width: 200;">
+            <h5><a href="">EXPLORE JAMU TRADISIONAL</a></h5>
+            <p></p>
+            <p>Incar Pasar Eropa, jamu Kami ingin mengexplore jamu lebih banyak lagi ke Eropa. Jamu Akan lebih diexplore dengan lebih...<a href="https://mediaindonesia.com/humaniora/407719/agar-konsumsi-jamu-tetap-menjadi-budaya-bangsa">Selengkapnya</a></p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-clipboard-data"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-        </div>
-      </div>
 
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <img src="https://akcdn.detik.net.id/visual/2015/05/10/09544490-be6f-4a2c-970d-c6372bd9c300_169.jpg?w=650" style="width: 200;">
+            <h5><a href="">SEHAT DENGAN JAMU, AYO MINUM JAMU</a></h5>
+            <p></p>
+            <p>Upaya peningkatan kualitas hidup manusia dapat diperoleh dengan meningkatkan kondisi kesehatan, dimana berpengaruh positif..<a href="https://www.bing.com/search?q=media+indonesia.com+tentang+jamu&qs=n&form=QBRE&sp=-1&pq=media+indonesia.com+tentang+jamu&sc=8-32&sk=&cvid=A47F55F4A3C24C019B59BACC67698E83&ghsh=0&ghacc=0&ghpl=">Selengkapnya</a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <img src="https://warta.jogjakota.go.id/assets/instansi/warta/article/Untitled-161.jpg" style="width: 200;">
+            <h5><a href="">JAMU, RAMUAN TRADISIONAL KAYA MANFAAT</a></h5>
+            <p></p>
+            <p>Jamu di Indonesia biasa digunakan sebagai obat herbal atau hasil meramu bahan-bahan yang berasal dari alam dan memiliki khas..<a href="https://mediaindonesia.com/nusantara/390156/industri-jamu-tradisional-tumbuh-10-20-persen-saat-pandemi">Selengkapnya</a></p>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
     </div>
   </section><!-- End Featured Services Section -->
 
