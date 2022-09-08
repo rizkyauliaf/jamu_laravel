@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #643a00;
+  color: #5f687b;
   text-decoration: none;
 }
 
 a:hover {
-  color: #206bfb;
+  color: #643a00;
   text-decoration: none;
 }
 
@@ -598,7 +598,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #5f687b;
+  color: #643a00;
 }
 
 .about .content ul {
@@ -986,7 +986,7 @@ section {
 }
 
 .team .member span {
-  font-style: italic;
+  font-style: bold;
   display: block;
   font-size: 13px;
 }
@@ -994,7 +994,7 @@ section {
 .team .member p {
   padding-top: 10px;
   font-size: 14px;
-  font-style: italic;
+  font-style: bold;
   color: #aaaaaa;
 }
 

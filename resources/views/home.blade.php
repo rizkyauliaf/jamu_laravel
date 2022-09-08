@@ -96,9 +96,9 @@
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <img src="assets/img/produksi/" style="width: 100;">
-            <h4><a href="">XXXX</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            <img src="assets/img/produksi/mobil.png" style="width: 100;">
+            <h4><a href="">DISTRIBUSI</a></h4>
+            <p>Pendistribusian dengan penuh tanggung jawab</p>
           </div>
         </div>
 
@@ -274,7 +274,7 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Jamu tradisional memiliki banyak manfaat sehingga saya menyarakan untuk mengkonsumsi jamu tradisional. 
+                Jamu tradisional memiliki banyak manfaat sehingga saya menyarakan untuk mengkonsumsi jamu tradisional.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -308,7 +308,7 @@
     <div class="container">
       <br><br>
       <div class="section-title">
-        <span>Proses Produksi</span>
+        <span>BERITA TERKINI</span>
       </div>
       <br><br>
 
@@ -350,19 +350,18 @@
     <div class="container">
 
       <div class="section-title">
-        <span>Team</span>
-        <h2>Team</h2>
-        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        <span>TIM</span>
       </div>
+      <br>
 
       <div class="row">
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" alt="">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
+            <img src="assets/img/tim/rose.jpg" alt="">
+            <h4>FATIN FURAIDA</h4>
+            <span>KELAS : WEB B</span>
             <p>
-              Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+              POLITEKNIK NEGERI MALANG
             </p>
             <div class="social">
               <a href=""><i class="bi bi-twitter"></i></a>
@@ -375,11 +374,11 @@
 
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" alt="">
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
+            <img src="assets/img/tim/jeni.jpg" alt="">
+            <h4>MARETYATIANHAR GUNSA</h4>
+            <span>KELAS : WEB B</span>
             <p>
-              Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              POLITEKNIK NEGERI MALANG
             </p>
             <div class="social">
               <a href=""><i class="bi bi-twitter"></i></a>
@@ -392,11 +391,11 @@
 
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" alt="">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <img src="assets/img/tim/jiso.jpg" alt="">
+            <h4>RIZKY AULIA FARIDATUUZHRO</h4>
+            <span>KELAS WEB : B</span>
             <p>
-              Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              POLITEKNIK NEGERI MALANG
             </p>
             <div class="social">
               <a href=""><i class="bi bi-twitter"></i></a>
@@ -409,11 +408,11 @@
 
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" alt="">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <img src="assets/img/tim/lisa.jpg" alt="">
+            <h4>VIRGINIA ABRINSA</h4>
+            <span>KELAS WEB : B</span>
             <p>
-              Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              POLITEKNIK NEGERI MALANG
             </p>
             <div class="social">
               <a href=""><i class="bi bi-twitter"></i></a>
