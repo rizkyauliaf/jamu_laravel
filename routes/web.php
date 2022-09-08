@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/index', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'home']);
 
 // Route::get('/index', function () {
 //     return view('index');

@@ -9,6 +9,7 @@
     @include('layouts.header')
     <!-- ======= Header ======= -->
     @yield('konten')
+    @include('layouts.contact')
     @include('layouts.footer')
     <!-- ======= Footer ======= -->
 
