@@ -2,6 +2,9 @@
 @section('title', 'JAMU KITA')
 @section('konten')
 <br>
+<br>
+<br>
+<br>
 <section id="hero" class="d-flex align-items-center">
 
   <div class="container">
@@ -221,7 +224,6 @@
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials section-bg">
     <div class="container">
-
       <div class="section-title">
         <span>ULASAN</span>
       </div>
@@ -234,12 +236,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                Jamunya sangat bagus, ditubuh menjadi lebih segar.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>Lalalisa</h3>
+              <h4>Founder</h4>
             </div>
           </div><!-- End testimonial item -->
 
@@ -247,12 +249,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Sangat direkomendasikan untuk memebeli jamu diperusahaan ini
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              <h3>Sarah</h3>
+              <h4>Pengusaha</h4>
             </div>
           </div><!-- End testimonial item -->
 
@@ -260,24 +262,24 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                Sangat banyaK varian yang dijual, jadi pembeli dapat memilih sesuai dengan keluhan yang dimiliki.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
+              <h3>Tatang</h3>
+              <h4>Pedagang</h4>
             </div>
           </div><!-- End testimonial item -->
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                Jamu tradisional memiliki banyak manfaat sehingga saya menyarakan untuk mengkonsumsi jamu tradisional. 
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
+              <h3>Tomi</h3>
+              <h4>Pemilik Toko</h4>
             </div>
           </div><!-- End testimonial item -->
 
@@ -285,12 +287,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                Jamu trasional memiliki efek samping yang lebih kecil sehingga saya mengkonsumsi jamu tradisional daripada obat kimia.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
+              <h3>Jeni</h3>
+              <h4>Penyanyi</h4>
             </div>
           </div><!-- End testimonial item -->
 

@@ -7,19 +7,19 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-                <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+                <li><a class="nav-link scrollto active" href="#hero">BERANDA</a></li>
+                <li class="dropdown"><a href="#"><span>TENTANG</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a class="nav-link scrollto" href="about">Sejarah</a></li>
-                        <li><a class="nav-link scrollto" href="services">Proses Produksi</a></li>
-                        <li><a href="#">Mitra Kami</a></li>
+                        <li><a class="nav-link scrollto" href="about">SEJARAH</a></li>
+                        <li><a class="nav-link scrollto" href="services">PROSES PRODUKSI</a></li>
+                        <li><a href="#">MITRA KAMI</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="#portfolio">Produk Inovasi</a></li>
-                <li><a class="nav-link scrollto " href="#featured-services">Berita Terkini</a></li>
-                <li><a class="nav-link scrollto" href="#team">Tim</a></li>
+                <li><a class="nav-link scrollto" href="#portfolio">PRODUK INOVASI</a></li>
+                <li><a class="nav-link scrollto " href="#featured-services">BERITA TERKINI</a></li>
+                <li><a class="nav-link scrollto" href="#team">TIM</a></li>
 
-                <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+                <li><a class="nav-link scrollto" href="#contact">KONTAK</a></li>
                 <!-- <li><a class="getstarted scrollto" href="#about">Login</a></li> -->
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
