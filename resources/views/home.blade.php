@@ -426,4 +426,5 @@
       </div>
 
     </div>
-  </section><!-- End Team Section -->
+  </section>
+  <!-- End Team Section -->
